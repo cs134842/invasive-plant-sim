@@ -2,3 +2,4 @@ v0.0.1dev1:	Added the html for plants, seeds, and seed production rate.
 v0.0.1dev2:	Added the functions that will be used for v0.0.1
 v0.0.1:		Added the code for plants, seeds, and seed production rate.
 v0.0.2dev1:	Added experimental cap for plants
+v0.0.2dev2:	Fixed glitch where plants would go over cap
