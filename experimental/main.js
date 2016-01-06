@@ -35,7 +35,7 @@ incrSeed=function(){
 	refresh();
 }
 setInterval(function(){
-	if (plants <= cap){
+	if (plants < cap){
 		plants+=seedsJ;
 		seedsJ=seedsI;
 		seedsI=seedsH;
@@ -47,7 +47,8 @@ setInterval(function(){
 		seedsC=seedsB;
 		seedsB=seedsA;
 		seedsA=seeds;
-	} else {
+	}
+	if (plants >= cap){
 		plants=500;
 	}
 	seeds+=seedProdRate*floor(plants);
